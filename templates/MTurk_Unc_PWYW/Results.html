@@ -1,0 +1,39 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+    <p>
+        You are a {{ player.role }}.
+        {% if player.role == 'seller' %}
+            {% if group.s_choice_PWYW_FP == 1 %}
+                You chose to offer the product at a fixed price of {{ group.s_decision_price_FP }} and {{ group.purchases }} buyers decided to purchase.
+            {% else %}
+                You chose to offer the product via PWYW and you received {{ group.total_payments }} from the buyers.
+            {% endif %}
+        {% else %}
+                Your valuation of the product is {{ player.private_value }}.
+               {% if group.s_choice_PWYW_FP == 1 %}
+                The seller chose to offer the product at a fixed price of {{ group.s_decision_price_FP }}.
+                You decided
+                    {% if player.b_decision_buy == 1 %}
+                        to buy.
+                    {% else %}
+                        against buying.
+                    {% endif %}
+                {% else %}
+                The seller chose to offer the product via PWYW.
+                You decided to pay {{ player.b_decision_price_PWYW }} for it.
+                {% endif %}
+        {% endif %}
+
+        Your earnings from the experiment are <strong>{{ player.payoff }}</strong>.
+    </p>
+
+    {% next_button %}
+{% endblock %}
+
+

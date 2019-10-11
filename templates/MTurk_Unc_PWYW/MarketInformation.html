@@ -1,0 +1,29 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Market Information
+{% endblock %}
+
+{% block content %}
+In this market the seller is
+
+{% if Constants.treatment <= 2 %}
+    informed about the buyers' valuations.
+{% else %}
+    not informed about the buyers' valuations.
+{% endif %}
+
+
+The buyers
+{% if Constants.treatment <= 1 %}
+    know their respective valuation.
+{% elif Constants.treatment == 3 %}
+    know their respective valuation.
+{% else %}
+    do not know their respective valuation.
+{% endif %}
+
+    {% next_button %}
+
+{% endblock %}

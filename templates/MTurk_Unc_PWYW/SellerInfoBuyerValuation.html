@@ -1,0 +1,28 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Information about buyer valuations
+{% endblock %}
+
+{% block content %}
+<p>The buyers in your group have the following valuations:</p>
+   <table class="table table-hover table-striped">
+       <tr>
+            <td>Buyer 1:</td>
+            <td>{{ subsession.p.private_value }}</td>
+       </tr>
+       <tr>
+            <td>Buyer 2:</td>
+            <td>{{ player.private_value }}</td>
+       </tr>
+       <tr>
+            <td>Buyer 3:</td>
+            <td>{{ player.private_value }}</td>
+       </tr>
+    </table>
+<p>The valuations of the buyers thus are known to you.</p>
+<p>The buyers do know their valuations as well.</p>
+    {% next_button %}
+
+{% endblock %}

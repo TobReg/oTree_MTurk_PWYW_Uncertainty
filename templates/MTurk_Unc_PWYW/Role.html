@@ -1,0 +1,12 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Role
+{% endblock %}
+
+{% block content %}
+You are a <b>{{ player.role }}</b>.
+    {% next_button %}
+
+{% endblock %}
