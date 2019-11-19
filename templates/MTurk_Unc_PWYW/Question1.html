@@ -2,13 +2,16 @@
 {% load otree static %}
 
 {% block title %}
-    Seller Decision: Fixed Price
+    Control question 1
 {% endblock %}
 
 {% block content %}
-Your production costs are: {{ Constants.prod_cost }}.
-Please decide:
+<p> Is the following statement right or wrong?</p>
+
     {% formfields %}
+
     {% next_button %}
+
+    {% include Constants.instructions_decision %}
 
 {% endblock %}

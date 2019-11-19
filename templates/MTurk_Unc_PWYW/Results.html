@@ -6,31 +6,71 @@
 {% endblock %}
 
 {% block content %}
-    <p>
-        You are a {{ player.role }}.
+    <p> You are a {{ player.role }}. </p>
+
         {% if player.role == 'seller' %}
             {% if group.s_choice_PWYW_FP == 1 %}
-                You chose to offer the product at a fixed price of {{ group.s_decision_price_FP }} and {{ group.purchases }} buyers decided to purchase.
-            {% else %}
-                You chose to offer the product via PWYW and you received {{ group.total_payments }} from the buyers.
+        <p>You chose to offer the product at a fixed price of {{ group.s_decision_price_FP }} and {{ group.purchases }} buyers decided to purchase.</p>
+        <p>Overview prices paid:</p>
+   <table class="table table-hover table-striped">
+       <tr>
+            <p>
+            <td>Buyer 1:</td>
+            <td> {{ group.b1payment }} </td>
+       </tr>
+       <tr>
+            <td>Buyer 2:</td>
+            <td> {{ group.b2payment }} </td>
+       </tr>
+       <tr>
+            <td>Buyer 3:</td>
+            <td> {{ group.b3payment }} </td>
+       </tr>
+    </table>
+    <p>Your production costs are: {{ Constants.prod_cost }} ECU.</p>
+
+        {% else %}
+        <p>You chose to offer the product via PWYW and you received {{ group.total_payments }} ECU from the buyers.</p>
+    <p>Overview prices paid:</p>
+   <table class="table table-hover table-striped">
+       <tr>
+            <td>Buyer 1:</td>
+            <td> {{ group.b1payment }} </td>
+       </tr>
+       <tr>
+            <td>Buyer 2:</td>
+            <td> {{ group.b2payment }} </td>
+       </tr>
+       <tr>
+            <td>Buyer 3:</td>
+            <td> {{ group.b3payment }} </td>
+       </tr>
+    </table>
+    <p>Your production costs are {{ Constants.prod_cost }} ECU.</p>
+
             {% endif %}
         {% else %}
-                Your valuation of the product is {{ player.private_value }}.
+    <p>Your valuation of the product is {{ player.private_value }}.</p>
                {% if group.s_choice_PWYW_FP == 1 %}
-                The seller chose to offer the product at a fixed price of {{ group.s_decision_price_FP }}.
-                You decided
+        <p>The seller chose to offer the product at a fixed price of {{ group.s_decision_price_FP }}.</p>
+        <p>You decided
                     {% if player.b_decision_buy == 1 %}
                         to buy.
                     {% else %}
                         against buying.
-                    {% endif %}
+                    {% endif %}</p>
                 {% else %}
-                The seller chose to offer the product via PWYW.
-                You decided to pay {{ player.b_decision_price_PWYW }} for it.
+        <p>The seller chose to offer the product via PWYW.</p>
+        <p>You decided
+                    {% if player.b_decision_buy == 1 %}
+                        to buy and paid {{ player.b_decision_price_PWYW }} ECU for it.</p>
+                    {% else %}
+                        against buying.
+                    {% endif %}</p>
                 {% endif %}
         {% endif %}
 
-        Your earnings from the experiment are <strong>{{ player.payoff }}</strong>.
+        <p>Your earnings from the experiment are <strong>{{ player.payoff }}</strong>.</p>
     </p>
 
     {% next_button %}

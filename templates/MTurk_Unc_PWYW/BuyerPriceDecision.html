@@ -6,6 +6,18 @@
 {% endblock %}
 
 {% block content %}
+
+{% if Constants.treatment == 2 and group.s_choice_PWYW_FP == 0 %}
+    <p> Because the seller chose PWYW, you will find out about your valuation for the product.</p>
+    <p> It is {{ player.private_value }}.</p>
+{% elif Constants.treatment == 4 and group.s_choice_PWYW_FP == 0%}
+    <p> Because the seller chose PWYW, you will find out about your valuation for the product.</p>
+    <p> It is {{ player.private_value }}.</p>
+{% else %}
+    <p>Your valuation for the product is between 2 and 10.</p>
+{% endif %}
+
+
 Please decide:
     {% formfields %}
     {% next_button %}

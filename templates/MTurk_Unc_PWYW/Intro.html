@@ -2,11 +2,20 @@
 {% load otree static %}
 
 {% block title %}
-    Welcome! You are playing in treatment {{ Constants.treatment }} (for DEBUGGING)
+    Welcome to this experiment!
 {% endblock %}
 
 {% block content %}
 
+    {% include Constants.instructions_template %}
+
+    {% include Constants.instructions_decision %}
+
+    <p>
+
+        A short version of the instructions will stay on your screen for reference.
+
+    </p>
     {% next_button %}
 
 {% endblock %}

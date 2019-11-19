@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-In this market the seller is
+The seller is
 
 {% if Constants.treatment <= 2 %}
     informed about the buyers' valuations.
@@ -14,6 +14,8 @@ In this market the seller is
     not informed about the buyers' valuations.
 {% endif %}
 
+        <p>
+        <p>
 
 The buyers
 {% if Constants.treatment <= 1 %}
@@ -22,8 +24,14 @@ The buyers
     know their respective valuation.
 {% else %}
     do not know their respective valuation.
+
+        <p>
+
+If the seller selects PWYW, buyers will be informed about their valuation if they decide to purchase.
 {% endif %}
 
     {% next_button %}
+
+    {% include Constants.instructions_decision %}
 
 {% endblock %}

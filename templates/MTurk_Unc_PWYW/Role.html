@@ -7,6 +7,16 @@
 
 {% block content %}
 You are a <b>{{ player.role }}</b>.
+
+    {% if player.role == 'seller' %}
+            <p>
+                You can decide on your own, whether you want to sell your good via "Fixed price" or "PWYW (pay-what-you-want)".
+
+    {% elif player.role == 'buyer' %}
+    {% endif %}
+            <p>
     {% next_button %}
+
+    {% include Constants.instructions_decision %}
 
 {% endblock %}

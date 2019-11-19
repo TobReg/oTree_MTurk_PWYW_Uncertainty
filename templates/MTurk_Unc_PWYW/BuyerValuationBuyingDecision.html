@@ -2,17 +2,28 @@
 {% load otree static %}
 
 {% block title %}
-    Buyer Decision: Buy
+    Buyer decision:
 {% endblock %}
 
 {% block content %}
-<p>Your valuation for the product is: {{ player.private_value }}</p>
-<p>The seller incurs production costs of {{ Constants.prod_cost }}</p>
-<p> The seller decided for the following pricing mechanism: {% if s_choice == 1 %} fixed price {% else %} PWYW {% endif %}.</p>
+{% if Constants.treatment <= 1 %}
+    <p>Your valuation for the product is: {{ player.private_value }}.</p>
+{% elif Constants.treatment == 3 %}
+    <p>Your valuation for the product is: {{ player.private_value }}.</p>
+{% else %}
+    <p>Your valuation for the product is: between 2 and 10.</p>
+{% endif %}
 
+{% if Constants.treatment <= 2 %}
+    <p>The seller knows the buyers' valuations.</p>
+{% else %}
+    <p>The seller does not know the buyers' valuations.</p>
+{% endif %}
+<p> </p>
+<p> The seller decided for the following pricing mechanism: <b> {% if s_choice == 1 %} fixed price {% else %} PWYW {% endif %} </b> </p>
 
 {% if s_choice == 1 %}
-<p>The seller set a price of {{ group.s_decision_price_FP }}</p>
+<p>The seller set a price of {{ group.s_decision_price_FP }}.</p>
 {% else %}
 <p>This means you can pay what you want.</p>
 {% endif %}

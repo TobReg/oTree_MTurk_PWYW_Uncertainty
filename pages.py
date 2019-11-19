@@ -10,16 +10,73 @@ class GroupWP(WaitPage):
 
 
 class Intro(Page):
-    pass
-
-class Instructions(Page):
-    pass
-
-
-#class Questions(Page):
-#    form_model = 'player'
-#    form_fields = ['question1']
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 #    pass
+
+# class Instructions(Page):
+#    pass
+
+
+class Question1(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question1']
+
+    def error_message(self, values):
+        if values['question1'] == 1:
+            return "Your answer is not correct. The seller can decide on their own, which pricing mechanism to use."
+    pass
+
+
+class Question2(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question2']
+
+    def error_message(self, values):
+        if values['question2'] == 1:
+            return "Your answer is not correct. If the seller chooses PWYW, the buyers can decide on their own how much to pay for the product."
+    pass
+
+
+class Question3p1(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question3s']
+
+    def error_message(self, values):
+        if values['question3s'] != -3:
+            return "Your answer is not correct. The seller receives no payments but incurs a cost of 3."
+
+    pass
+
+class Question3p2(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question3b1']
+
+    def error_message(self, values):
+        if values['question3b1'] != 0:
+            return "Your answer is not correct. If the buyer does not purchase, there is no consumption and thus no payoff."
+
+    pass
+
+class Question4(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question4']
+    pass
 
 
 class QuestionsWP(WaitPage):
@@ -29,20 +86,14 @@ class QuestionsWP(WaitPage):
 
 
 class Role(Page):
-    pass
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 
 
 class MarketInformation(Page):
-#    def vars_for_template(self):
-#        return dict(
-#            t=self.group.treatment
-#        )
-#    def vars_for_template(self):
-#        return {'treatment': self.group.treatment}
-#    def is_displayed(self):
-#        return Constants.treatment == 1 or Constants.treatment == 2
-
-    pass
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+#    pass
 
 
 class SellerInfoBuyerValuation(Page):
@@ -106,14 +157,24 @@ class Results(Page):
 
 
 class Questionnaire(Page):
+
+    form_model = 'player'
+    form_fields = ['survey_easy_difficult', 'survey_risk', 'strategy_seller', 'strategy_buyer', 'age', 'gender', 'feedback']
+
     pass
 
+class Bye(Page):
+    pass
 
 page_sequence = [
     GroupWP,
     Intro,
-    Instructions,
-#    Questions,
+ #   Instructions,
+    Question1,
+    Question2,
+    Question3p1,
+    Question3p2,
+    Question4,
     QuestionsWP,
     Role,
     MarketInformation,
@@ -125,5 +186,6 @@ page_sequence = [
     BuyerPriceDecision,
     ResultsWaitPage,
     Results,
-    Questionnaire
+    Questionnaire,
+    Bye
 ]

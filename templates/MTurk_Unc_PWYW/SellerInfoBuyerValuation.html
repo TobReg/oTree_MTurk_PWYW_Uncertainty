@@ -6,23 +6,60 @@
 {% endblock %}
 
 {% block content %}
-<p>The buyers in your group have the following valuations:</p>
+<p>The buyers have the following valuations:</p>
+
+    {% if Constants.treatment <= 2 %}
    <table class="table table-hover table-striped">
        <tr>
             <td>Buyer 1:</td>
-            <td>{{ subsession.p.private_value }}</td>
+            <td>{{ Constants.wtp1 }}</td>
        </tr>
        <tr>
             <td>Buyer 2:</td>
-            <td>{{ player.private_value }}</td>
+            <td>{{ Constants.wtp2 }}</td>
        </tr>
        <tr>
             <td>Buyer 3:</td>
-            <td>{{ player.private_value }}</td>
+            <td>{{ Constants.wtp3 }}</td>
        </tr>
     </table>
-<p>The valuations of the buyers thus are known to you.</p>
-<p>The buyers do know their valuations as well.</p>
+    <p>The valuations of the buyers thus are known to you.</p>
+    {% else %}
+   <table class="table table-hover table-striped">
+       <tr>
+            <td>Buyer 1:</td>
+            <td>Between 2 and 10</td>
+       </tr>
+       <tr>
+            <td>Buyer 2:</td>
+            <td>Between 2 and 10</td>
+       </tr>
+       <tr>
+            <td>Buyer 3:</td>
+            <td>Between 2 and 10</td>
+       </tr>
+    </table>
+    <p>The valuations of the buyers thus are not known to you.</p>
+    {% endif %}
+
+
+    {% if Constants.treatment == 1 %}
+            <p <b>The buyers know their respective valuation.</b>
+            </p>
+    {% elif Constants.treatment == 2 %}
+            <p> <b>The buyers do not know their respective valuation.</b> </p>
+            <p>If you select PWYW, buyers will be informed about their valuation in case they decide to purchase.
+            </p>
+    {% elif Constants.treatment == 3 %}
+            <p>
+                <b>The buyers know their respective valuations.</b>
+            </p>
+    {% elif Constants.treatment == 4 %}
+            <p> <b>The buyers do not know their respective valuation.</b> </p>
+            <p>If you select PWYW, buyers will be informed about their valuation in case they decide to purchase.
+            </p>
+    {% endif %}
+
     {% next_button %}
 
 {% endblock %}
