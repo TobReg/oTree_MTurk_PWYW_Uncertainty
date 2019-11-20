@@ -57,6 +57,7 @@ class Question3p1(Page):
 
     pass
 
+
 class Question3p2(Page):
     def vars_for_template(self):
         return {'treatment': Constants.treatment}
@@ -70,12 +71,75 @@ class Question3p2(Page):
 
     pass
 
-class Question4(Page):
+
+class Question4p1(Page):
     def vars_for_template(self):
         return {'treatment': Constants.treatment}
 
     form_model = 'player'
-    form_fields = ['question4']
+    form_fields = ['question4s']
+
+    def error_message(self, values):
+        if values['question4s'] != 7:
+            return "Your answer is not correct. With two purchases at the price of 5, the seller receives 10 and incurs a cost of 3."
+
+    pass
+
+
+class Question4p2(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question4b1']
+
+    def error_message(self, values):
+        if values['question4b1'] != 2:
+            return "Your answer is not correct. Buyer 3's payoff is the valuation of 7 minus the price of 5."
+
+    pass
+
+
+class Question4p3(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question4b2']
+
+    def error_message(self, values):
+        if values['question4b2'] != -2:
+            return "Your answer is not correct. Buyer 2's payoff is the valuation of 3 minus the price of 5."
+
+    pass
+
+
+class Question5p1(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question5b']
+
+    def error_message(self, values):
+        if values['question5b'] == 1:
+            return "Your answer is not correct. If the seller chooses PWYW and the buyers decide to purchase, then the " \
+                   "buyers will know their valuations."
+
+    pass
+
+
+class Question5p2(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
+
+    form_model = 'player'
+    form_fields = ['question5s']
+
+    def error_message(self, values):
+        if values['question5s'] != 6:
+            return "Your answer is not correct. Buyers' payments sum to 9 and the seller incurs a cost of 3."
+
     pass
 
 
@@ -174,7 +238,11 @@ page_sequence = [
     Question2,
     Question3p1,
     Question3p2,
-    Question4,
+    Question4p1,
+    Question4p2,
+    Question4p3,
+    Question5p1,
+    Question5p2,
     QuestionsWP,
     Role,
     MarketInformation,

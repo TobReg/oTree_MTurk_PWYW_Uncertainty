@@ -27,10 +27,10 @@
             <td> {{ group.b3payment }} </td>
        </tr>
     </table>
-    <p>Your production costs are: {{ Constants.prod_cost }} ECU.</p>
+    <p>Your production costs are: {{ Constants.prod_cost }}.</p>
 
         {% else %}
-        <p>You chose to offer the product via PWYW and you received {{ group.total_payments }} ECU from the buyers.</p>
+        <p>You chose to offer the product via PWYW and you received {{ group.total_payments }} from the buyers.</p>
     <p>Overview prices paid:</p>
    <table class="table table-hover table-striped">
        <tr>
@@ -46,7 +46,7 @@
             <td> {{ group.b3payment }} </td>
        </tr>
     </table>
-    <p>Your production costs are {{ Constants.prod_cost }} ECU.</p>
+    <p>Your production costs are {{ Constants.prod_cost }}.</p>
 
             {% endif %}
         {% else %}
@@ -63,14 +63,16 @@
         <p>The seller chose to offer the product via PWYW.</p>
         <p>You decided
                     {% if player.b_decision_buy == 1 %}
-                        to buy and paid {{ player.b_decision_price_PWYW }} ECU for it.</p>
+                        to buy and paid {{ player.b_decision_price_PWYW }} for it.</p>
                     {% else %}
                         against buying.
                     {% endif %}</p>
                 {% endif %}
         {% endif %}
 
-        <p>Your earnings from the experiment are <strong>{{ player.payoff }}</strong>.</p>
+        <p>Thus, your payoff is: <strong>{{ player.payoff }}</strong>.</p>
+
+        <p>Together with the participation fee your earnings from the experiment are <strong>{{ participant.payoff_plus_participation_fee }}</strong>.</p>
     </p>
 
     {% next_button %}

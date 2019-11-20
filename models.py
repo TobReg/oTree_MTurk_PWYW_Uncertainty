@@ -153,11 +153,17 @@ class Player(BasePlayer):
 
     question3b1 = models.IntegerField(min=-3, max=5, label="Enter the payoff of buyer 1 into the field below.")
 
-    question3b2 = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for buyer 2 and enter the result into the field below.")
+    question4s = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for the seller and enter the result into the field below.")
 
-    question3b3 = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for buyer 3 and enter the result into the field below.")
+    question4b1 = models.IntegerField(min=-3, max=5, label="Enter the payoff of buyer 3 into the field below.")
 
-    question4 = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for buyer 3 and enter the results into the respective field.")
+    question4b2 = models.IntegerField(min=-3, max=5, label="Enter the payoff of buyer 2 into the field below.")
+
+    question5b = models.BooleanField(choices=[(0, "right"), (1, "wrong")],
+                                         label='"Before deciding on their payment, buyers find out their valuation."',
+                                         widget=widgets.RadioSelectHorizontal)
+
+    question5s = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for the seller and enter the result into the field below.")
 
     b_decision_buy = models.BooleanField(choices=[(0, "No"), (1, "Yes")],
                                          label='Do you want to buy the product?',

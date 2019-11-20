@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Control question 5 part 2
+{% endblock %}
+
+{% block content %}
+<p>The valuations of the buyers are not known, neither to the seller nor to the buyers.</p>
+<p>The seller chose "PWYW" and all buyers decide to purchase. Their valuations are 6, 10 and 6.</p>
+<p>Their payments are 1, 5 and 3.</p>
+
+    {% formfields %}
+
+    {% next_button %}
+
+    {% include Constants.instructions_decision %}
+
+{% endblock %}

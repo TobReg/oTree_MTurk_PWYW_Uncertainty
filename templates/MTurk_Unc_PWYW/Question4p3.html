@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Control question 4 part 3
+{% endblock %}
+
+{% block content %}
+<p>The seller chose "fixed price" and set a price of 5. Buyer 2's valuation is 3. She does not know that and decides to purchase the product.</p>
+    {% formfields %}
+
+    {% next_button %}
+
+    {% include Constants.instructions_decision %}
+
+{% endblock %}
