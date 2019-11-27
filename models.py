@@ -146,7 +146,7 @@ class Player(BasePlayer):
                                          widget=widgets.RadioSelectHorizontal)
 
     question2 = models.BooleanField(choices=[(0, "right"), (1, "wrong")],
-                                         label='"If the seller choses PWYW (pay what you want) as pricing mechanism, the buyers can decide on their own how much to pay for the product."',
+                                         label='"If the seller chooses PWYW (Pay-What-You-Want) as pricing mechanism, the buyers can decide on their own how much to pay for the product."',
                                          widget=widgets.RadioSelectHorizontal)
 
     question3s = models.IntegerField(min=-3, max=27, label="Please calculate the payoff for the seller and enter the result into the field below.")

@@ -21,13 +21,16 @@ class MarketInformation(Page):
 
 
 class SellerInfoBuyerValuation(Page):
-
     def vars_for_template(self):
-        return {'valuation1': self.player.private_value}
+        return {'treatment': Constants.treatment, 'valuation1': self.player.private_value}
+
     def is_displayed(self) -> bool:
-        return self.player.role() == 'seller' and (Constants.treatment == 1 or Constants.treatment == 2)
+        return self.player.role() == 'seller' #and (Constants.treatment == 1 or Constants.treatment == 2)
+
 
 class SellerDecisionPricingMechanism(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 
     form_model = 'group'
     form_fields = ['s_choice_PWYW_FP']
@@ -37,6 +40,8 @@ class SellerDecisionPricingMechanism(Page):
 
 
 class SellerDecisionPriceProdCostInfo(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 
     form_model = 'group'
     form_fields = ['s_decision_price_FP']
@@ -52,6 +57,8 @@ class SellerDecisionsWP(WaitPage):
 
 
 class BuyerValuationBuyingDecision(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 
     form_model = 'player'
     form_fields = ['b_decision_buy']
@@ -63,6 +70,8 @@ class BuyerValuationBuyingDecision(Page):
 
 
 class BuyerPriceDecision(Page):
+    def vars_for_template(self):
+        return {'treatment': Constants.treatment}
 
     form_model = 'player'
     form_fields = ['b_decision_price_PWYW']

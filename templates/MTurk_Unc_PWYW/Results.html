@@ -72,7 +72,7 @@
 
         <p>Thus, your payoff is: <strong>{{ player.payoff }}</strong>.</p>
 
-        <p>Together with the participation fee your earnings from the experiment are <strong>{{ participant.payoff_plus_participation_fee }}</strong>.</p>
+        <p>Together with the reward and the flat part of the bonus (in total {{ session.participation_fee }}), your earnings from the experiment are <strong>{{ participant.payoff_plus_participation_fee }}</strong>.</p>
     </p>
 
     {% next_button %}

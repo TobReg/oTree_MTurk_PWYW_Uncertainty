@@ -5,8 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPricingMechanism.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPricingMechanism.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPriceProdCostInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPriceProdCostInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/global/mturk_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/global/mturk_template.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="162" column="117" selection-start-line="162" selection-start-column="117" selection-end-line="162" selection-end-column="150" />
+            <state relative-caret-position="773">
+              <caret line="148" column="77" lean-forward="true" selection-start-line="148" selection-start-column="77" selection-end-line="148" selection-end-column="94" />
               <folding>
                 <element signature="e#0#134#0" expanded="true" />
               </folding>
@@ -29,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+            <state relative-caret-position="4">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -41,20 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="307">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Instructions/models.py">
+        <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Instructions2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="150" selection-start-line="59" selection-start-column="150" selection-end-line="59" selection-end-column="150" />
+            <state relative-caret-position="238">
+              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -62,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/global/mturk_template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="83" lean-forward="true" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
+            <state relative-caret-position="154">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#crowd-form#0;n#!!top" expanded="true" />
               </folding>
@@ -72,33 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Instructions/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../payment_info/pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="296">
+              <caret line="74" column="110" selection-start-line="74" selection-start-column="110" selection-end-line="74" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -112,30 +100,42 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Intro.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Bye.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question2.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question1.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p2.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question5p1.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p3.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question5p2.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Instructions2.html" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html" />
         <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPricingMechanism.html" />
-        <option value="$PROJECT_DIR$/templates/global/mturk_template.html" />
-        <option value="$PROJECT_DIR$/../settings.py" />
         <option value="$PROJECT_DIR$/../Instructions/pages.py" />
-        <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/../Instructions/models.py" />
-        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html" />
+        <option value="$PROJECT_DIR$/templates/global/mturk_template.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPriceProdCostInfo.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html" />
         <option value="$PROJECT_DIR$/pages.py" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p1.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p1.html" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question3p1.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question3p2.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/InstrucDecisionSituation.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p1.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p2.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p3.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question5p1.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Question5p2.html" />
+        <option value="$PROJECT_DIR$/../Instructions/models.py" />
+        <option value="$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html" />
+        <option value="$PROJECT_DIR$/../Instructions/templates/Instructions/Instructions2.html" />
+        <option value="$PROJECT_DIR$/../settings.py" />
       </list>
     </option>
   </component>
@@ -148,11 +148,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +175,28 @@
               <item name="MTurk_Unc_PWYW" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="MTurk_Unc_PWYW" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MTurk_Unc_PWYW" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="MTurk_Unc_PWYW" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MTurk_Unc_PWYW" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="MTurk_Unc_PWYW" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -231,7 +252,7 @@
     <frame x="0" y="23" width="1260" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2783251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2824302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,41 +317,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/templates/trust_simple_three/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/templates/trust_simple_three/Instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/templates/trust_simple_three/InstrucDecisionSituation.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/cherry_picking/Experiment/otree/CherryPicking/trust_simple_three/templates/trust_simple_three/Send.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -342,9 +328,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/global/Page.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../requirements_base.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Questionnaire.html">
@@ -361,31 +344,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3.html" />
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4.html" />
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p2.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="115" selection-start-line="8" selection-start-column="115" selection-end-line="8" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question5p2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -403,44 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPriceProdCostInfo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPricingMechanism.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Intro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -448,24 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Instructions2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -486,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/global/mturk_template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="83" lean-forward="true" selection-start-line="6" selection-start-column="83" selection-end-line="6" selection-end-column="83" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#crowd-form#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../payment_info/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -505,10 +409,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html">
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -521,16 +425,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerValuationBuyingDecision.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="296">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPriceProdCostInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/BuyerPriceDecision.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerDecisionPricingMechanism.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/MarketInformation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" column="93" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question3p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="137" selection-start-line="8" selection-start-column="137" selection-end-line="8" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question4p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="167" selection-start-line="8" selection-start-column="167" selection-end-line="8" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question5p2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="121" selection-start-line="12" selection-start-column="121" selection-end-line="12" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/SellerInfoBuyerValuation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question3p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question3p2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question5p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question4p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Instructions/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
+        <state relative-caret-position="281">
           <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
@@ -538,43 +564,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Question1.html">
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Question5p2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="165">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/InstrucDecisionSituation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Intro.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../requirements_base.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/global/mturk_template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#crowd-form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Instructions/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="162" column="117" selection-start-line="162" selection-start-column="117" selection-end-line="162" selection-end-column="150" />
+        <state relative-caret-position="773">
+          <caret line="148" column="77" lean-forward="true" selection-start-line="148" selection-start-column="77" selection-end-line="148" selection-end-column="94" />
           <folding>
             <element signature="e#0#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/InstrucDecisionSituation.html">
+    <entry file="file://$PROJECT_DIR$/templates/MTurk_Unc_PWYW/Results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+        <state relative-caret-position="296">
+          <caret line="74" column="110" selection-start-line="74" selection-start-column="110" selection-end-line="74" selection-end-column="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Instructions/models.py">
+    <entry file="file://$PROJECT_DIR$/../Instructions/templates/Instructions/Instructions2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="150" selection-start-line="59" selection-start-column="150" selection-end-line="59" selection-end-column="150" />
+        <state relative-caret-position="238">
+          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages.py">
+    <entry file="file://$PROJECT_DIR$/../settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+        <state relative-caret-position="307">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
